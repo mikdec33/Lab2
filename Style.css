@@ -1,0 +1,145 @@
+main {
+    flex: 1;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+footer a {
+    color: white;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("images/mountain.jpg");
+    background-size: cover;         
+    background-repeat: no-repeat;    
+    background-position: center;      
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center; 
+    margin-top: 60px;
+    color: #000000;
+    height: 60px;
+}
+
+h2 {
+    text-align: center; 
+    margin-top: 60px;
+    color: #000000;
+    height: 40px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    margin-bottom: 0px;
+    color: #000000;
+}
+
+nav a {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 270px;            
+    margin-top: 40px;
+}
+
+.image-row img {
+    max-width: 400px;       
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+form {
+    width: 100%;
+    text-align: left;
+    margin-left: 20px;
+}
+
+#map {
+    margin-top: 60px;
+    height: 400px;
+    width: 100%;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#signup {
+    width: 250px; 
+    margin: 0 auto;
+    text-align: left; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#signin {
+    width: 200px; 
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: left; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#cleanup {
+    width:  250px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#itup {
+    width:  260px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+
+#itup a {
+    color: rgb(255, 255, 255);
+}
+
+#cleanup a {
+    color: rgb(255, 255, 255);
+}
